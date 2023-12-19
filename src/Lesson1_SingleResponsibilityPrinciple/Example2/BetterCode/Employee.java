@@ -1,4 +1,4 @@
-package Lesson1.Example2.BetterCode;
+package Lesson1_SingleResponsibilityPrinciple.Example2.BetterCode;
 
 public class Employee {
 

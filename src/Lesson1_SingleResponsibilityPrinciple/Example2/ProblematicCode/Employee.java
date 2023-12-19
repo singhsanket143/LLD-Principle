@@ -1,4 +1,4 @@
-package Lesson1.Example2.ProblematicCode;
+package Lesson1_SingleResponsibilityPrinciple.Example2.ProblematicCode;
 
 // Any issue with this class ???
 public class Employee {

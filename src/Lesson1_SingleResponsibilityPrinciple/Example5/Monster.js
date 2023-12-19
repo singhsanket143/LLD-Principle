@@ -14,16 +14,13 @@ exports.update = async (req, res) => {
             password: bcrypt.hashSync(req.body.password, 8)
         }).exec();
         res.status(200).send({
-
             message: `User record has been updated successfully`
-
         });
     } catch (err) {
         console.error("Error while updating the record", err.message);
         res.status(500).send({
             message: "Some internal error occured"
         })
-
     };
 }
 
