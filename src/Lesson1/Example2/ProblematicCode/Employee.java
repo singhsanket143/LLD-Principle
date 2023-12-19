@@ -1,4 +1,4 @@
-package Lesson1;
+package Lesson1.Example2.ProblematicCode;
 
 // Any issue with this class ???
 public class Employee {
