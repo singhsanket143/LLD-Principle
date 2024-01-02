@@ -1,4 +1,4 @@
-package Lesson4_LiskovSubstitutionPrinciple.ProblematicCode;
+package Lesson4_LiskovSubstitutionPrinciple.BetterCode;
 
 public abstract class CreditCard {
 
@@ -25,10 +25,6 @@ public abstract class CreditCard {
     public abstract void swipeAndPay();
 
     public abstract void mandatePayments();
-
-    public abstract void upiPayment();
-
-    public abstract void intlPayment();
 
     public void displayCreditCardDetails() {
         System.out.println("CC Number: " + this.ccNumber + " , With Owner Name: " +this.ownerName);
