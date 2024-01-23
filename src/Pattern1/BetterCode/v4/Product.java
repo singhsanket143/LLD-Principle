@@ -18,6 +18,7 @@ public class Product {
         if(b.getPrice() > 0) {
             this.price = b.getPrice();
         }
+
         this.name = b.getName();
         this.price = b.getPrice();
         this.brand = b.getBrand();
@@ -69,8 +70,13 @@ public class Product {
         }
 
         public Builder setDesc(String desc) {
-            
+
             this.desc = desc;
+            return this;
+        }
+
+        public Builder setImages(List<String> images) {
+            this.images = images;
             return this;
         }
 
